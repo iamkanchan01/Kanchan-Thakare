@@ -110,27 +110,41 @@ export const projects: Project[] = [
   },
 ]
 
-export const experience: { role: string; company: string; period: string; points: string[] }[] = [
+export const experience: { role: string; company: string; period: string; project: string; points: string[] }[] = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Company Name',
-    period: 'Month 2023 – Present',
+    role: 'Software Engineer',
+    company: 'HCLTech',
+    period: 'Nov 2024 – Present',
+    project: 'Vendor Payment Application · Office Depot',
     points: [
-      'Design and develop scalable RESTful APIs and microservices using ASP.NET Core, C# and Entity Framework Core.',
-      'Build responsive, reusable UI components in Angular and React with TypeScript.',
-      'Own CI/CD pipelines in Jenkins and GitHub Actions, automating build, test and deployment to Azure and Rancher-managed Kubernetes clusters.',
-      'Review code, mentor junior developers and promote clean architecture and SOLID principles.',
+      'Support and enhance a business-critical vendor payment platform built with .NET Core, ASP.NET Core, Angular, React and Node.js.',
+      'Deliver REST API integrations, feature enhancements and fixes across the frontend and backend; troubleshoot production issues and ESP batch jobs.',
+      'Resolve security scan findings and support secure integrations using CyberArk credential management and Snowflake key-pair authentication.',
+      'Contribute to Jenkins and Docker release workflows, and use Dynatrace to investigate application health, performance and root causes.',
     ],
   },
   {
     role: 'Software Engineer',
-    company: 'Company Name',
-    period: 'Month 2021 – Month 2023',
+    company: 'CompuCom',
+    period: 'Oct 2022 – Nov 2024',
+    project: 'Vendor Payment Application · Office Depot',
     points: [
-      'Developed full stack features with .NET Core Web API, SQL Server and Angular for enterprise applications.',
-      'Built Node.js/Express services and integrated third-party REST APIs.',
-      'Optimised SQL queries and EF Core data access, improving API response times.',
-      'Wrote unit tests with xUnit/NUnit and took part in Agile/Scrum ceremonies.',
+      'Developed a finance application for managing vendor invoice stop-payment requests and payment validation.',
+      'Built responsive React features for request creation, tracking, reporting and access management, with Node.js services and REST APIs supporting business workflows.',
+      'Used SQL for data management and query optimization, and helped modernize legacy ASP application functionality in React.',
+      'Validated releases, resolved defects and partnered with cross-functional teams to deliver features tracked in Jira and Agile sprints.',
+    ],
+  },
+  {
+    role: 'Software Engineer',
+    company: 'Capgemini',
+    period: 'Apr 2021 – Sep 2022',
+    project: 'Employee Onboarding & Information Portal',
+    points: [
+      'Developed .NET Core and C# REST APIs and Angular features for employee information and onboarding workflows.',
+      'Built Entity Framework Core data-access layers using Code First and Database First, and developed SQL Server queries, stored procedures and data models.',
+      'Integrated WSO2 Identity Server for single sign-on, authentication and authorization.',
+      'Contributed to requirements analysis, code reviews, testing, production support and deployments through Agile delivery.',
     ],
   },
 ]

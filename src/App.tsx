@@ -366,6 +366,9 @@ function App() {
                   </h3>
                   <span className="pill">{e.period}</span>
                 </div>
+                <p className="timeline-project">
+                  <strong>Project:</strong> {e.project}
+                </p>
                 <ul>
                   {e.points.map((pt) => (
                     <li key={pt}>{pt}</li>
