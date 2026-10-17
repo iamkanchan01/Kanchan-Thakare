@@ -113,14 +113,14 @@ export const projects: Project[] = [
 export const experience: { role: string; company: string; period: string; project: string; points: string[] }[] = [
   {
     role: 'Software Engineer',
-    company: 'HCLTech',
+    company: 'HCL Tech',
     period: 'Nov 2024 – Present',
     project: 'Vendor Payment Application · Office Depot',
     points: [
-      'Support and enhance a business-critical vendor payment platform built with .NET Core, ASP.NET Core, Angular, React and Node.js.',
-      'Deliver REST API integrations, feature enhancements and fixes across the frontend and backend; troubleshoot production issues and ESP batch jobs.',
-      'Resolve security scan findings and support secure integrations using CyberArk credential management and Snowflake key-pair authentication.',
-      'Contribute to Jenkins and Docker release workflows, and use Dynatrace to investigate application health, performance and root causes.',
+      'Support and maintain the Vendor Payment Application for Office Depot, built with .NET Core, ASP.NET Core, Angular, React and Node.js.',
+      'Implement business requirements, feature enhancements and bug fixes across frontend and backend applications; develop REST APIs for business workflows.',
+      'Troubleshoot production issues and ESP batch jobs, and remediate vulnerabilities identified by Snyk and GitHub security scans.',
+      'Support secure integrations with CyberArk credential management and Snowflake key-pair authentication; assist with Jenkins and Docker releases and monitor applications with Dynatrace.',
     ],
   },
   {
@@ -138,7 +138,7 @@ export const experience: { role: string; company: string; period: string; projec
   {
     role: 'Software Engineer',
     company: 'Capgemini',
-    period: 'Apr 2021 – Sep 2022',
+    period: 'Apr 2021 – Sept 2022',
     project: 'Employee Onboarding & Information Portal',
     points: [
       'Developed .NET Core and C# REST APIs and Angular features for employee information and onboarding workflows.',
