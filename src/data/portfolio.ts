@@ -20,8 +20,8 @@ export const profile = {
     'I enjoy automating delivery: building CI/CD pipelines with Jenkins and GitHub Actions, containerising applications with Docker, and running them on Kubernetes clusters managed with Rancher and on Microsoft Azure. I care about clean architecture, SOLID principles, testing and code quality, and I work comfortably in Agile/Scrum teams.',
   ],
   socials: [
-    { label: 'GitHub', url: 'https://github.com/krt856e' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/kanchan-thakare' },
+    { label: 'GitHub', url: 'https://github.com/iamkanchan01/' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/iamkanchan01/' },
   ],
 }
 
