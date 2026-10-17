@@ -198,14 +198,9 @@ function App() {
                 <a className="btn primary" href="#projects">
                   View my work
                 </a>
-                <a className="btn" href="#contact">
-                  Get in touch
+                <a className="btn" href={profile.resumeUrl} target="_blank" rel="noreferrer">
+                  View Résumé
                 </a>
-                {profile.resumeUrl && (
-                  <a className="btn" href={profile.resumeUrl} target="_blank" rel="noreferrer">
-                    Résumé
-                  </a>
-                )}
               </div>
             </div>
 

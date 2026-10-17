@@ -8,7 +8,7 @@ export const profile = {
     'Software Engineer with 5.5+ years of experience building scalable web applications with .NET Core, Angular, React and Node.js, and shipping them to Azure through automated CI/CD pipelines.',
   location: 'Pune, India',
   email: 'krt856e@gmail.com',
-  resumeUrl: '', // e.g. './resume.pdf' (put the file in /public)
+  resumeUrl: './resume.pdf',
   highlights: [
     { value: '5.5+', label: 'Years of experience' },
     { value: 'Full Stack', label: '.NET · Angular · React' },
