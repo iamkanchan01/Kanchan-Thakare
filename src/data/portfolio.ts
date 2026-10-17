@@ -15,13 +15,14 @@ export const profile = {
     { value: 'Cloud & DevOps', label: 'Azure · CI/CD · Containers' },
   ],
   about: [
-    'I am a Software Engineer with over 5.5 years of experience designing, developing and maintaining enterprise web applications end to end, from database and APIs to responsive user interfaces and cloud deployment.',
+    'I am a Software Engineer with 5.5+ years of experience designing, developing and maintaining enterprise web applications end to end, from databases and APIs to responsive user interfaces and cloud deployment.',
     'On the back end I build clean, secure RESTful APIs and microservices with C#, ASP.NET Core and Entity Framework Core, plus Node.js services where it fits. On the front end I create modern, component-based SPAs with Angular and React using TypeScript.',
     'I enjoy automating delivery: building CI/CD pipelines with Jenkins and GitHub Actions, containerising applications with Docker, and running them on Kubernetes clusters managed with Rancher and on Microsoft Azure. I care about clean architecture, SOLID principles, testing and code quality, and I work comfortably in Agile/Scrum teams.',
   ],
   socials: [
-    { label: 'GitHub', url: 'https://github.com/iamkanchan01/' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/iamkanchan01/' },
+    { label: 'GitHub', url: 'https://github.com/iamkanchan01' },
+    { label: 'Portfolio', url: 'https://iamkanchan01.github.io/Kanchan-Thakare/' },
   ],
 }
 
@@ -54,7 +55,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: 'DevOps & CI/CD',
-    items: ['Jenkins', 'GitHub Actions', 'Azure Pipelines', 'Docker', 'Kubernetes', 'Rancher', 'Git'],
+    items: ['Jenkins', 'GitHub Actions', 'Azure Pipelines', 'Docker', 'Kubernetes', 'Rancher', 'Splunk', 'Git'],
   },
   {
     group: 'Practices & Tools',
@@ -119,8 +120,8 @@ export const experience: { role: string; company: string; period: string; projec
     points: [
       'Support and maintain the Vendor Payment Application for Office Depot, built with .NET Core, ASP.NET Core, Angular, React and Node.js.',
       'Implement business requirements, feature enhancements and bug fixes across frontend and backend applications; develop REST APIs for business workflows.',
-      'Troubleshoot production issues and ESP batch jobs, and remediate vulnerabilities identified by Snyk and GitHub security scans.',
-      'Support secure integrations with CyberArk credential management and Snowflake key-pair authentication; assist with Jenkins and Docker releases and monitor applications with Dynatrace.',
+      'Troubleshoot production issues and ESP batch jobs; analyze vulnerability findings in Splunk, Snyk and GitHub security scans, and remediate reported issues.',
+      'Support secure integrations with CyberArk credential management and Snowflake key-pair authentication; assist with Jenkins and Docker releases and use Splunk for log analysis.',
     ],
   },
   {
