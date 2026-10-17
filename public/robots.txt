@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://krt856e.github.io/portfolio/sitemap.xml

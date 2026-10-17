@@ -1,0 +1,11 @@
+{
+  "name": "Kanchan Thakare | Full Stack .NET Developer",
+  "short_name": "Kanchan T.",
+  "description": "Portfolio of Kanchan Thakare, Full Stack .NET Developer.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1120",
+  "theme_color": "#4f46e5",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
