@@ -11,7 +11,7 @@ export const profile = {
   resumeUrl: './resume.pdf',
   highlights: [
     { value: '5.5', label: 'Years of experience' },
-    { value: 'Full Stack', label: '.NET · Angular · React · Next.js' },
+    { value: 'Full Stack', label: '.NET Core · Angular · React' },
     { value: 'Cloud & DevOps', label: 'Azure · CI/CD · Containers' },
   ],
   about: [
@@ -78,8 +78,6 @@ export type Project = {
   demoUrl: string
 }
 
-// Example projects: replace them with your own work (personal or open-source only,
-// never confidential employer code or details).
 export const projects: Project[] = [
   {
     title: 'E-Commerce Microservices Platform',
@@ -152,7 +150,7 @@ export const experience: { role: string; company: string; period: string; projec
 ]
 
 // Roles cycled by the typing animation in the hero.
-export const roles = ['Full Stack .NET Developer', 'React & Next.js Engineer', 'Azure & DevOps Enthusiast', 'Clean Code Advocate']
+export const roles = ['Full Stack .NET Developer', 'React & Angular Engineer', 'Azure & DevOps Enthusiast', 'Clean Code Advocate']
 
 // Self-assessed proficiency (0–100) shown as animated bars. Adjust to taste.
 export const proficiency: { skill: string; level: number }[] = [

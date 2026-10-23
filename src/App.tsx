@@ -216,7 +216,7 @@ function App() {
                   <b className="k">const</b> developer = {'{'}
                   {'\n'}  name: <b className="s">'{profile.name}'</b>,
                   {'\n'}  location: <b className="s">'{profile.location}'</b>,
-                  {'\n'}  stack: [<b className="s">'.NET'</b>, <b className="s">'Angular'</b>, <b className="s">'React'</b>, <b className="s">'Next.js'</b>],
+                  {'\n'}  stack: [<b className="s">'.NET'</b>, <b className="s">'Angular'</b>, <b className="s">'React'</b>],
                   {'\n'}  cloud: <b className="s">'Azure'</b>,
                   {'\n'}  loves: <b className="s">'clean code'</b>,
                   {'\n'}  available: <b className="k">true</b>,
