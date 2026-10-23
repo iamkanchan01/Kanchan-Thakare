@@ -13,7 +13,7 @@ Open http://localhost:5173.
 
 ## Personalise
 
-All content lives in [`src/data/portfolio.ts`](src/data/portfolio.ts): name, role, about, skills, projects, experience and social links. The hero's **View Résumé** button opens `public/resume.pdf` in a new tab; replace that file to update the résumé.
+Portfolio content lives in [`src/data/portfolio.ts`](src/data/portfolio.ts). The root-level `Kanchan-Thakare-CV.docx` is the résumé source; export an updated PDF to `public/resume.pdf` whenever it changes. The hero's **View Résumé** button opens that PDF in a new tab.
 
 ## Deploy to GitHub Pages
 

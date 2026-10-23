@@ -125,7 +125,7 @@ function CountUp({ to, decimals = 0, suffix = '' }: { to: number; decimals?: num
 const year = new Date().getFullYear()
 const techCount =new Set(skills.flatMap((g) => g.items)).size
 const numbers = [
-  { to: 5.5, decimals: 1, suffix: '+', label: 'Years building software' },
+  { to: 5.5, decimals: 1, label: 'Years building software' },
   { to: techCount, suffix: '+', label: 'Technologies & tools' },
   { to: skills.length, label: 'Skill domains' },
   { to: projects.length, label: 'Featured projects' },
@@ -216,7 +216,7 @@ function App() {
                   <b className="k">const</b> developer = {'{'}
                   {'\n'}  name: <b className="s">'{profile.name}'</b>,
                   {'\n'}  location: <b className="s">'{profile.location}'</b>,
-                  {'\n'}  stack: [<b className="s">'.NET'</b>, <b className="s">'Angular'</b>, <b className="s">'React'</b>],
+                  {'\n'}  stack: [<b className="s">'.NET'</b>, <b className="s">'Angular'</b>, <b className="s">'React'</b>, <b className="s">'Next.js'</b>],
                   {'\n'}  cloud: <b className="s">'Azure'</b>,
                   {'\n'}  loves: <b className="s">'clean code'</b>,
                   {'\n'}  available: <b className="k">true</b>,

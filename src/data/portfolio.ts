@@ -3,20 +3,20 @@
 
 export const profile = {
   name: 'Kanchan Thakare',
-  role: 'Full Stack .NET Developer',
+  role: 'Software Developer',
   tagline:
-    'Software Engineer with 5.5+ years of experience building scalable web applications with .NET Core, Angular, React and Node.js, and shipping them to Azure through automated CI/CD pipelines.',
+    'Full Stack Software Engineer with 5.5 years of experience building scalable applications with .NET Core, Angular, React, Next.js, Node.js and SQL Server, with experience in Azure, CI/CD and production support.',
   location: 'Pune, India',
-  email: 'krt856e@gmail.com',
-  resumeUrl: './resume-20261017.pdf',
+  email: 'krt856@gmail.com',
+  resumeUrl: './resume.pdf',
   highlights: [
-    { value: '5.5+', label: 'Years of experience' },
-    { value: 'Full Stack', label: '.NET · Angular · React' },
+    { value: '5.5', label: 'Years of experience' },
+    { value: 'Full Stack', label: '.NET · Angular · React · Next.js' },
     { value: 'Cloud & DevOps', label: 'Azure · CI/CD · Containers' },
   ],
   about: [
-    'I am a Software Engineer with 5.5+ years of experience designing, developing and maintaining enterprise web applications end to end, from databases and APIs to responsive user interfaces and cloud deployment.',
-    'On the back end I build clean, secure RESTful APIs and microservices with C#, ASP.NET Core and Entity Framework Core, plus Node.js services where it fits. On the front end I create modern, component-based SPAs with Angular and React using TypeScript.',
+    'I am a Full Stack Software Engineer with 5.5 years of experience designing, developing and supporting enterprise web applications, from databases and APIs to responsive user interfaces and production deployments.',
+    'On the back end I build RESTful APIs with C#, ASP.NET Core and Entity Framework Core, alongside Node.js services. On the front end I work with Angular, React and Next.js using TypeScript.',
     'I enjoy automating delivery: building CI/CD pipelines with Jenkins and GitHub Actions, containerising applications with Docker, and running them on Kubernetes clusters managed with Rancher and on Microsoft Azure. I care about clean architecture, SOLID principles, testing and code quality, and I work comfortably in Agile/Scrum teams.',
   ],
   socials: [
@@ -43,7 +43,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: 'Frontend',
-    items: ['Angular', 'React', 'TypeScript', 'JavaScript (ES6+)', 'RxJS', 'HTML5', 'CSS3 / SCSS', 'Bootstrap'],
+    items: ['Angular', 'React', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'RxJS', 'HTML5', 'CSS3 / SCSS', 'Bootstrap'],
   },
   {
     group: 'Databases',
@@ -119,9 +119,11 @@ export const experience: { role: string; company: string; period: string; projec
     project: 'Vendor Payment Application · Office Depot',
     points: [
       'Support and maintain the Vendor Payment Application for Office Depot, built with .NET Core, ASP.NET Core, Angular, React and Node.js.',
-      'Implement business requirements, feature enhancements and bug fixes across frontend and backend applications; develop REST APIs for business workflows.',
-      'Troubleshoot production issues and ESP batch jobs; analyze vulnerability findings in Splunk, Snyk and GitHub security scans, and remediate reported issues.',
-      'Support secure integrations with CyberArk credential management and Snowflake key-pair authentication; assist with Jenkins and Docker releases and use Splunk for log analysis.',
+      'Implement business requirements, feature enhancements, bug fixes and REST APIs across frontend and backend applications.',
+      'Troubleshoot critical production issues and ESP batch jobs, investigating failures that affect business operations.',
+      'Analyze and remediate findings from Splunk, Snyk and GitHub security scans, and use application logs for root-cause analysis.',
+      'Support secure integrations with CyberArk credential management and Snowflake key-pair authentication.',
+      'Participate in Jenkins and Docker deployments and collaborate across Agile/Scrum teams using Jira.',
     ],
   },
   {
@@ -151,7 +153,7 @@ export const experience: { role: string; company: string; period: string; projec
 ]
 
 // Roles cycled by the typing animation in the hero.
-export const roles = ['Full Stack .NET Developer', 'Angular & React Engineer', 'Azure & DevOps Enthusiast', 'Clean Code Advocate']
+export const roles = ['Full Stack .NET Developer', 'React & Next.js Engineer', 'Azure & DevOps Enthusiast', 'Clean Code Advocate']
 
 // Self-assessed proficiency (0–100) shown as animated bars. Adjust to taste.
 export const proficiency: { skill: string; level: number }[] = [
