@@ -75,8 +75,7 @@ export type Project = {
   title: string
   description: string
   tech: string[]
-  repoUrl?: string
-  liveUrl?: string
+  demoUrl: string
 }
 
 // Example projects: replace them with your own work (personal or open-source only,
@@ -87,27 +86,27 @@ export const projects: Project[] = [
     description:
       'Microservices-based shopping platform with separate Product, Order and Identity services built on ASP.NET Core Web API and EF Core, secured with JWT, and fronted by an Angular SPA.',
     tech: ['.NET Core', 'C#', 'EF Core', 'Angular', 'SQL Server', 'Docker'],
-    repoUrl: 'https://github.com/your-username/ecommerce-microservices',
+    demoUrl: './demos/index.html?app=shop',
   },
   {
     title: 'Task Management Dashboard',
     description:
       'Full stack task tracker with a React + TypeScript front end and a Node.js/Express REST API, featuring authentication, role-based access and real-time status updates.',
     tech: ['React', 'TypeScript', 'Node.js', 'Express', 'REST API'],
-    repoUrl: 'https://github.com/your-username/task-dashboard',
+    demoUrl: './demos/index.html?app=tasks',
   },
   {
     title: 'CI/CD Pipeline Automation',
     description:
       'End-to-end pipelines that build, test and containerise a .NET + Angular app, then deploy to Azure App Service and a Rancher-managed Kubernetes cluster using GitHub Actions and Jenkins.',
     tech: ['GitHub Actions', 'Jenkins', 'Docker', 'Kubernetes', 'Rancher', 'Azure'],
-    repoUrl: 'https://github.com/your-username/cicd-pipelines',
+    demoUrl: './demos/index.html?app=pipeline',
   },
   {
     title: 'Portfolio Website',
     description: 'This site. Built with React, TypeScript and Vite, and deployed to GitHub Pages with GitHub Actions.',
     tech: ['React', 'TypeScript', 'Vite', 'GitHub Actions'],
-    repoUrl: 'https://github.com/your-username/portfolio',
+    demoUrl: './demos/index.html?app=portfolio',
   },
 ]
 

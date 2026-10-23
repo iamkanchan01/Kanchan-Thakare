@@ -334,16 +334,9 @@ function App() {
                   ))}
                 </ul>
                 <div className="links">
-                  {p.repoUrl && (
-                    <a href={p.repoUrl} target="_blank" rel="noreferrer">
-                      Code →
-                    </a>
-                  )}
-                  {p.liveUrl && (
-                    <a href={p.liveUrl} target="_blank" rel="noreferrer">
-                      Live →
-                    </a>
-                  )}
+                  <a href={p.demoUrl} target="_blank" rel="noopener noreferrer">
+                    Open live demo <span aria-hidden="true">↗</span>
+                  </a>
                 </div>
               </article>
             ))}
